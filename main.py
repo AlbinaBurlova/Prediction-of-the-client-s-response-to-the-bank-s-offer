@@ -261,7 +261,3 @@ if button:
     response = "Отклик!" if prediction else "Отклика нет."
 
     st.sidebar.write(f'Предсказание модели: {response}')
-
-    response = "Отклик!" if prediction else "Отклика нет."
-
-    st.sidebar.write(f'Предсказание модели: {response}')
