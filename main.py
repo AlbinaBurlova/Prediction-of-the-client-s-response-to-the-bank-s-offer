@@ -256,7 +256,7 @@ if button:
     input_df = scaler.transform(input_df)
 
     probs_test = model.predict_proba(input_df)
-    prediction = probs_test[:, 1] >= 0.5
+    prediction = probs_test[:, 1] >= 0.5284705081799884
 
     response = "Отклик!" if prediction else "Отклика нет."
 
